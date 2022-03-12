@@ -1,0 +1,113 @@
+.header{
+    background-color: rgb(231, 196, 190);
+    width: 100%;
+    height: 40px;
+    display:flex;
+    justify-content: space-evenly;
+    font-family:'Courier New', Courier, monospace;
+    font-size: xx-large;
+  }
+  
+  .heading{
+    margin-top: 15px;
+    text-shadow: 10px 10px 20px black;
+  }
+
+  .card-title{
+    text-align: center;
+  }
+  
+  .studentButton {
+    margin-top: -100px;
+    color: rgb(199, 155, 155);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 900;
+  }
+
+  .card-body{
+    text-align: center;
+    font-size: large;
+    color:darkred;
+    
+  }
+  
+  form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 27%;
+    height: 400px;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border-radius: 0.8rem;
+    box-shadow: 10px 10px 30px 5px rgb(134, 133, 67);
+  }
+  
+  input{
+    margin-left:0px;
+    width:160px;
+    height: 30px;
+    border-top: 0ch;
+    border-left: 0ch;
+    border-right: 0ch;
+    border-radius: 0.8rem;
+    text-align: center;
+  }
+  
+  button {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 130px;
+    height: 50px;
+    border-radius: 0.8rem;
+    border-style: none;
+    /* align-self: center; */
+    background-color: rgb(185, 197, 117);
+  }
+  
+  button:hover{
+    background-color: rgb(218, 158, 134);
+  }
+
+  .app-container {
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    padding: 1rem;
+    position:absolute;
+    top:30px;
+    right:300px;
+  }
+
+  .addform{
+    position:absolute;
+    top:50px;
+    right:600px;
+    margin-right:150px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 5px 5px 8px rgb(139, 104, 50), 10px 10px 8px rgb(163, 29, 91), 15px 15px 8px rgb(0, 128, 128);
+
+  }
+  
+  th,
+  td {
+    border: 1px solid #ffffff;
+    padding: 5px;
+    font-size: 25px;
+  }
+  
+  th {
+    background-color:darkcyan;
+  }
+  
+  td {
+    background-color: rgb(196, 198, 199);
+  }
